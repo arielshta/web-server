@@ -17,9 +17,9 @@ const forecast = (latitude, longtitude, callback) => {
                      body.current.feelslike + 
                      ' degress out.' +
                      ' The humidity level is: ' +
-                     body.current.humidity +
+                     body.current.humidity + '%' +
                      ' and the wind speed is: ' +
-                     body.current.wind_speed)
+                     body.current.wind_speed + '.')
         } 
     })
 }
